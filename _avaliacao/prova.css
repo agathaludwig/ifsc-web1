@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+
+body {
+	margin: 0;
+	font-family: "Yanone Kaffeesatz";
+	min-width: 700px;
+	font-weight: bold;
+}
+
+/* Formulário */
+h1 {
+	text-align: center;
+	background: #eee;
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.4);
+	border: 1px solid #C0C0C0;
+	padding-top: 5px;
+	margin: 5px 0 40px 0;
+	font-weight: bold;	
+	position: sticky;
+	top: 0;	
+}
+
+fieldset {
+	position: center;
+	border: 1px ridge #808080;
+	width: 500px;
+	height: 250px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	margin: 20px auto 45px auto;
+	padding: 20px;
+	background: #eee;	
+}
+
+label.alinha {
+	width: 200px;
+	display: inline-block; 
+	text-align: right;
+	padding-right: 5px;
+	margin-top: 10px;
+}
+
+div#cat {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+input[name="nome-prod"] {
+	width: 250px;	
+}
+
+input[name="preco"], input[name="qtd"] {
+	width: 150px;	
+}
+
+input[name="data"] {
+	width: 110px;	
+}
+
+
+div.botoes {
+	text-align: center;
+	}
+	
+button {
+	width: 250px;
+	height: 30px;
+	font-family: "Yanone Kaffeesatz";
+	font-size: 18px;
+	margin-top: 25px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+/* Tabela */
+
+
+caption {
+	text-align: left;
+}
+
+table {
+	width: 550px;
+	height: 100%;
+	font-size: 16px;
+ margin: auto;
+	border: 1px solid #000000; 
+}
+
+td {
+	border: 1px solid #000000; 	
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+th {
+	border: 1px solid #000000; 	
+	padding: 3px;
+	background: #eee;
+}

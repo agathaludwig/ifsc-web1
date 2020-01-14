@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Formulário 1 </title>
+		<link rel="stylesheet" href="form1.css"> 
+</head> 
+
+<body> 
+   <h1> Formulários - coleta de informações pessoais</h1>
+			<form action="form1.php" method="post" enctype="multipart/form-data">
+				<fieldset>
+					<legend> Informações pessoais</legend>
+					
+					<label class="alinha">Nome completo: </label>
+					<input type="text" name="nome-completo" placeholder="Seu nome aqui..." autofocus>
+					<br>
+					
+					<label class="alinha" for="email">E-mail: </label>
+					<input type="email" name="email" id="email" required>
+					<br>
+					
+					<label class="alinha">Data de nascimento: </label>
+					<input type="text" name="nascimento">
+					<br>
+					
+					<label class="alinha">Login: </label>
+					<input type="text" name="login">
+					<label class="obri">*</label>
+					<br>
+					
+					<label class="alinha">Senha: </label>
+					<input type="password" name="senha">
+					<label class="obri">*</label>
+					<br>
+					
+					<label class="alinha"> Estado: </label> 
+					<select name="estado">
+						<option> Santa Catarina</option>
+						<option> Rio Grande do Sul </option>
+						<option> Paraná </option>
+						<option> São Paulo </option>
+					</select>
+					<br><br>
+					
+					<label> Faixa etária: </label>
+					<br>
+					<input type="radio" name="fxetaria" value="Menor ou igual a 18 anos"> Menor ou igual a 18 anos <br>
+					<input type="radio" name="fxetaria" value="Maior de 18 anos" checked> Maior de 18 anos <br>
+					
+				</fieldset>
+				
+				<div class="botoes">
+				<button type="reset" name="limpar-form"> Limpar formulário </button>
+				<button type="submit" name="efetuar-cadastro"> Efetuar cadastro </button>
+</body> 
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+

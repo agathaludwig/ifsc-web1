@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+	background: green;
+}
+caption {
+	text-align: right;
+	background: white;
+}
+table {
+	position: center;	
+	width: 90%;
+	font-size: 14px;
+	margin: auto;
+	border-spacing: 1px; /*espaço entre células*/
+	/*border-collapse: colapse */
+	font-family: "Ubuntu"; 
+	border: 1px solid white;
+	background-color: #556B2F;
+	border-radius: 3px;
+	box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.65); 
+	
+}
+td {
+	border: 1px solid white; 	
+	height: 30px;
+	background-color: #DBF282;
+	color: black;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+th {
+	border: 1px solid white;
+	padding: 5px;
+	background-color: #556B2F;
+	color: white;
+	border-radius: 3px;
+}
+td.cent {
+	text-align: center;
+}
+th.large {
+	width: 30%;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+   
+ /* Formatação de blocos */
+
+ .bloco {
+ 	display: inline-block; 			/* transforma bloco em inline*/
+ 	text-align: center;				
+ 	width: 200px;					/* (b) */
+ 	height: 200px;					/* (b) */
+ 	border: 2px solid black;		/* (C) */
+ 	border-radius: 10px;			/* (C) */
+ 	box-shadow: 1px 1px 6px black;	/* (C) */
+ 	padding-right: 50px;			/* (d) */
+ 	margin-top: 150px;				/* (e) */
+ 	margin-bottom: 150px;			/* (e) */
+ 	
+ }
+ .inline {  						/*sem o display inline block não é possível formatar inline */
+ 	display: inline-block;			/* mantem inline em inline*/
+ 	text-align: center;
+ 	width: 100px;					/* (b) */
+ 	height: 100px;					/* (b) */
+ 	border: 2px dotted black;		/* (C) */
+ 	border-radius: 10px;			/* (C) */
+ 	box-shadow: 1px 1px 6px black;	/* (C) */
+ 	padding-right: 50px;			/* (d) */
+ 	margin-top: 150px;				/* (e) */
+ 	margin-bottom: 150px;			/* (e) */
+ 	
+ }
+
+ #n1 {								/*penultimo elemento*/
+ 	margin-top: 30px;				/* (i) */
+ 	margin-left: 50px; 				/* (i) */
+ }
+  #n2 {								/*ultimo elemento*/
+ 	 display: block;				/* transforma um inline em bloco*/
+ 	 padding: 20px;					/* (h) */
+ }

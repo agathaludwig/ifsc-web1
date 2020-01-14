@@ -1,0 +1,128 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+	<meta charset="utf-8"> 
+	<title>  Exercício 8</title> 
+	<style>
+		p {
+			line-height: 40px;
+			font-family: 'Helvetica';
+			font-size: medium;
+			text-align: justify;
+			text-indent: 30px;
+		}
+		p.saibamais {
+			line-height: 20px;
+			font-family: 'Helvetica';
+			font-size: medium;
+			text-align: center;
+		}
+		h1 {
+			font-family: 'Helvetica';
+			font-size: larger;
+			font-weight: bold;
+		}
+		h2 {
+			font-family: 'Helvetica';
+			font-size: medium;
+			text-decoration: underline;
+		}
+		.titulo {
+			font-size: x-large;
+			text-shadow: 1px 2px #C0C0C0;
+		}
+		aside {
+			display: block;
+			border: medium ridge #C0C0C0;
+			background-color: #C0C0C0;
+			width: 60%;
+			height: 20%;
+			text-align: center;
+		}
+		nav#menu {
+			width: 15%;
+			position: fixed;
+			margin: 0;
+		    padding: 0;
+		}
+		ul li {
+		    background: #F5F5F5;
+			color: #666;
+		    margin: 0;
+		    padding: 8px;
+		    border-bottom: 1px solid #CCC;
+		    list-style-type: none;
+		    text-align: center;
+		    padding: 8px;
+			display: block;
+			font-weight: bold;
+		}
+		nav#menu a:link {
+			color: #666;
+			text-decoration: none;
+			
+		}
+		nav#menu a:hover {
+			background: #E5F0FF;
+			color: #039;
+			text-decoration: underline;
+		}
+		header#cabecalho {
+			width: 85%;
+			float: right;
+			text-align: center;
+		}
+		section#artigos {
+			margin-right: 10%;
+			margin-left: 20%;
+		}
+		footer {
+			text-align: center;
+		}
+	</style>
+</head> 
+
+<body> 
+    <header id="cabecalho">
+    	<br>
+    	<h1 class = "titulo" >Exercício 8</h1>
+    	<h2 class = "texto">Esta página apresenta a resolução do exercício número 8 da primeira lista de exercícios da Disciplina Programação WEB. </h2> <br> <br>	
+    </header>		
+
+	<nav id = "menu"> 
+			<ul id = "menulist">
+			<li> Menu </li>	
+			<li> <a href=#cabecalho target="_self"> Página principal</a></li>
+			<li> <a href=#css target="_self"> CSS</a></li>
+			<li> <a href=#html target="_self"> HTML</a></li>
+		</ul>
+	</nav>
+    
+    <section id="artigos">
+    	<article id= "css"> 
+	    	<h1>O que é CSS?</h1>
+		    <p> Definição – CSS é a abreviação em inglês do termo Cascading Style Sheet, ou, em português, folhas de estilo em cascata.</p>
+		    <p> “Folha de estilo em cascata é um mecanismo simples para adicionar estilos (fontes, cores, espaçamentos, etc...) a um documento HTML.”</p>
+		    <p>O HTML deve estruturar os objetos e o CSS deve apresentá-los na página;</p>
+		    <aside class="saibamais">
+			    <h2>Saiba mais sobre CSS</h2>
+				<p class="saibamais">Para saber mais sobre o assunto, acesse os sites: </p>
+				<p class="saibamais"><a href="http://www.matera.com/blog/post/o-que-e-css-e-qual-sua-importancia" target="_blank" title="Abre página do MATERA - seção CSS">Matera</a> ou <a href="http://www.maujor.com/tutorial/intrtut.php" target="_blank" title="Abre página do MAUJOR - seção introdução a CSS">Maujor</a>.</p>
+			</aside>
+    	</article>
+    	<article id= "html"> 
+    		<h1>O que é HTML?</h1>
+		    <p> Linguagem de marcação de textos. HTML significa Hypertext Markup Language (linguagem de marcação de hipertexto). Composta por elementos chamados tags ou rótulos ou marcadores. Estes marcadores definem a forma como o navegador apresenta a informação na página web. O navegador é o software mais importante para a exibição e renderização de um documento HTML</p>
+			<p>HTML não é linguagem de programação.</p>
+			<p>HTML5 é muito flexível em relação ao uso de elementos e à escrita do documento HTML, o que pode dificultar o entendimento e a legibilidade do código criado.</p>
+			<aside class="saibamais">
+				<h2>Saiba mais sobre HTML</h2>
+				<p class="saibamais">Para saber mais sobre o assunto, acesse os sites: </p>
+				<p class="saibamais"><a href="http://tableless.com.br/o-que-html-basico/" target="_blank" title="Abre página do Tableless - seção o que é html">Tableless</a> ou <a href="http://www.w3schools.com/tags/" target="_blank" title="Abre página do w3schools - seção tags">W3S</a>.</p>
+			</aside>
+		</article>
+	</section>
+</body> 
+<footer>
+	<h6>Produzido por Ágatha Ludwig para disciplina do IFSC. Informações do material apresentado em aula.</h6>
+</html> 

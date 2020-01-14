@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+
+body {
+	margin: 0;
+	font-family: "Yanone Kaffeesatz";
+ font-weight: bold;
+	letter-spacing: 0.6px;
+	min-width: 700px;
+}
+
+h1 {
+	text-align: center;
+	background: #eee;
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.4);
+	border: 1px solid #C0C0C0;
+	padding-top: 5px;
+	margin: 5px 0 30px 0;
+		
+	position: sticky;
+	top: 0;	
+}
+
+fieldset {
+	position: center;
+	border: 1px double #808080;
+	width: 700px;
+	height: 220px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	margin: 10px auto 15px auto;
+	padding: 10px;
+	background: #eee;
+}
+
+label.alinha {
+	width: 320px;
+	display: inline-block; 
+	text-align: right;
+	padding-right: 5px;
+	margin-top: 10px;
+}
+
+input[name="titulo"], input[name="date"] {
+	width: 130px;	
+}
+
+textarea {
+	width: 200px;
+	height: 70px;
+	display: table-cell; 
+	vertical-align: top;	
+ margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+input, textarea {
+	font-family: "Yanone Kaffeesatz";
+}
+
+div.botao {
+	text-align: center;
+}
+
+button {
+	width: 200px;
+	height: 30px;
+	font-family: "Yanone Kaffeesatz";
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Formulário 2</title> 
+		<link rel="stylesheet" href="form2.css">
+</head> 
+
+<body> 
+	<h1> Formulários com banco de dados </h1>
+	
+	<form action="form2.php" method="post" enctype="multipart/form-data">
+		<fieldset class="esquerdo">
+			<legend> Banco de dados - cadastro de informações </legend>
+			
+			<label class="alinha"> Código do cliente: </label>
+			<input type="text" name="codCli"  autofocus> <br>
+			
+			<label class="alinha"> Valor da compra (em R$): </label>
+			<input type="number" name="valor" step="1" min="0"> <br>		
+			
+			<label class="alinha"> Tipo de equipamento adquirido: </label> <br>
+			
+			<input type="radio" name="equip" value="Impressora"> Impressora <br>
+			
+			<input type="radio" name="equip" value="Notebook" checked> Notebook  <br>
+			
+			<input type="radio" name="equip" value="Smartfone"> Smartfone  <br> <br> 
+		
+			<div class="botoes">
+					<button type="submit" name="cadastrar"> Cadastrar compra </button>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend> Banco de dados - alteração de informações </legend>
+			
+			<label class="alinha"> Código do cliente para pesquisa: </label>
+			<input type="search"> <br>
+			
+			<label class="alinha"> Retificação do valor da compra (em R$): </label>
+			<input type="number" name="valor" step="1" min="0"> <br>
+			<br>
+			
+			<div class="botoes">
+			<button type="submit" name="alterar"> Alterar valor da compra </button>
+			
+			</div>
+		</fieldset>
+
+	</form>
+    
+</body> 
+</html> 

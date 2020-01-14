@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Formulário 3 </title>
+		<link rel="stylesheet" href="form3.css"> 
+</head> 
+
+<body> 
+   <h1> Formulários - publicação de artigos</h1>
+			<form action="form3.php" method="post" enctype="multipart/form-data">
+				<fieldset>
+					<legend> Artigo</legend>
+					
+					<label class="alinha">Título: </label>
+					<input type="text" name="titulo">
+					<br>
+					
+					<label class="alinha">Data da publicação: </label>
+					<input type="text" name="date">
+					<br>
+					
+					<label class="alinha">Palavras-chave do artigo: </label>
+					<textarea name="palavrachave"></textarea>		
+					<br>
+					
+					<label class="alinha">Enviar artigo (formato .pdf, máximo de 50KB): </label>
+					<input type="file" name="arquivos" multiple>
+				</fieldset>
+					
+				<div class="botao">
+				<button type="submit" name="enviar"> Enviar artigo </button>
+</body> 
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+

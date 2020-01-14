@@ -1,0 +1,63 @@
+@charset "UTF-8";
+   
+ /* CSS Externo; Comentário em CSS*/
+
+body {
+	font-family: Calibri;
+	font-size: 2em;
+	margin: 5% 5% 5% 5%;
+}
+nav#enunciado {
+	display: inline-block;
+	padding: 20px;
+	border: 2px dotted gray;		
+ 	border-radius: 10px;			
+ 	box-shadow: 1px 1px 6px black;	
+ 	float: right;
+ 	font-size: 12px;
+ 	margin-left: 5%;
+}
+/* Parágrafos */
+.paragrafo_primeiro {
+	font-size: 120%;
+	color: blue;
+}
+.paragrafo_segundo {
+	color: red;
+}
+/* Links */
+a:hover {
+	text-decoration: underline;  
+	font-style: oblique;
+	}
+.link_segundo {
+	display: inline-block;
+	margin-left: 3em;
+}
+.link_terceiro {
+	display: inline-block;
+	margin-top: 80px;
+}
+/* Cabeçalhos */
+.cabecalho {
+	display: inline-block;
+	border: 5px solid brown;
+}
+#cab_dif {
+	border: 10px solid brown;
+}
+#sub_dif {
+	text-decoration: line-through;
+}
+/* Listas */
+.lista_cent {
+	text-align: center;
+	list-style-position: inside;
+}
+.lista_borda {
+	border: 3px dashed brown;
+}
+/* Afastar os objetos daquele que está embaixo em 5%; */
+h1, h3, p, ul {
+	margin-bottom: 5%;
+}

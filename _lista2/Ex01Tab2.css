@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+caption {
+	text-align: center;
+	padding-bottom: 20px;
+}
+table {
+	font-size: 14px;
+	width: 80%;
+	height: 250px;
+	margin: auto;
+	border-spacing: 0; /*espaço entre células*/
+	font-family: Ubuntu; 
+
+}
+td, th {
+border: 1px solid #999; 	
+}
+th {
+	text-align: center;
+}
+td.celext {
+	padding: 20px;
+}
+table#int2 {
+	height: 190px;
+}

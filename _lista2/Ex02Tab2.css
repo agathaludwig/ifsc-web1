@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+caption {
+	text-align: center;
+	padding-bottom: 20px;
+}
+table {
+	width: 50%;
+	height: 100%;
+	font-size: 14px;
+	margin: auto;
+	border-spacing: 0; /*espaço entre células*/
+	font-family: Ubuntu; 
+
+}
+td{
+	border: 1px solid #999; 	
+	padding: 5px;
+	width: 25%;
+}
